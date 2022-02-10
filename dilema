@@ -1,0 +1,193 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main()
+
+{
+
+    int n;
+
+    long int price[20]={7980,22349,999,2799,229900,11101,9999,2195,9800,4999};
+
+    char name1[20]="fitbit plus";
+
+    char name2[20]="ipods";
+
+    char name3[20]="mi band";
+
+    char name4[20]="cult pass";
+
+    char name5[20]="macbook pro";
+
+    char name6[20]="digital camera";
+
+    char name7[20]="alexa";
+
+    char name8[20]="sandwitch toaster";
+
+    char name9[20]="microwave oven";
+
+    char name10[20]="scale";
+
+    printf("enter a number of employees\n");
+
+    scanf("%d",&n);
+
+    printf("here the goodies thet are selected for distributions are\n");
+
+    switch(n)
+
+    {
+
+        case 2:printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[6]-price[8]));
+
+                break;
+
+        case 3:printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("%s : %ld\n",name6,price[5]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[5]-price[8]));
+
+                break;
+
+        case 4:printf("%s : %ld\n",name1,price[0]);
+
+                printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("%s : %ld\n",name6,price[5]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[5]-price[0]));
+
+                break;
+
+        case 5:printf("%s : %ld\n",name10,price[9]);
+
+                printf("%s : %ld\n",name1,price[0]);
+
+                printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("%s : %ld\n",name6,price[5]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[5]-price[9]));
+
+                break;
+
+        case 6:printf("%s : %ld\n",name8,price[7]);
+
+                printf("%s : %ld\n",name4,price[3]);
+
+                printf("%s : %ld\n",name10,price[9]);
+
+                printf("%s : %ld\n",name1,price[0]);
+
+                printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[6]-price[7]));
+
+                break;
+
+        case 7:printf("%s : %ld\n",name8,price[7]);
+
+                printf("%s : %ld\n",name4,price[3]);
+
+                printf("%s : %ld\n",name10,price[9]);
+
+                printf("%s : %ld\n",name1,price[0]);
+
+                printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("%s : %ld\n",name6,price[5]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[5]-price[7]));
+
+                break;
+
+        case 8:printf("%s : %ld\n",name3,price[2]);
+
+                printf("%s : %ld\n",name8,price[7]);
+
+                printf("%s : %ld\n",name4,price[3]);
+
+                printf("%s : %ld\n",name10,price[9]);
+
+                printf("%s : %ld\n",name1,price[0]);
+
+                printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("%s : %ld\n",name6,price[5]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[5]-price[2]));
+
+                break;
+
+        case 9:printf("%s : %ld\n",name3,price[2]);
+
+                printf("%s : %ld\n",name8,price[7]);
+
+                printf("%s : %ld\n",name4,price[3]);
+
+                printf("%s : %ld\n",name10,price[9]);
+
+                printf("%s : %ld\n",name1,price[0]);
+
+                printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("%s : %ld\n",name6,price[5]);
+
+                printf("%s : %ld\n",name2,price[1]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[1]-price[2]));
+
+                break;
+
+        case 10:printf("%s : %ld\n",name3,price[2]);
+
+                printf("%s : %ld\n",name8,price[7]);
+
+                printf("%s : %ld\n",name4,price[3]);
+
+                printf("%s : %ld\n",name10,price[9]);
+
+                printf("%s : %ld\n",name1,price[0]);
+
+                printf("%s : %ld\n",name9,price[8]);
+
+                printf("%s : %ld\n",name7,price[6]);
+
+                printf("%s : %ld\n",name6,price[5]);
+
+                printf("%s : %ld\n",name2,price[1]);
+
+                printf("%s : %ld\n",name5,price[4]);
+
+                printf("and the difference between the choosen goodie with highest with highest price and the low price is %ld",(price[4]-price[2]));
+
+                break;
+
+        default:exit(0);
+
+    }
+
+    return 0;
+
+}
